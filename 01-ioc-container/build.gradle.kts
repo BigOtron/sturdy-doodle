@@ -1,9 +1,7 @@
 plugins {
-    java
+    id("java-conventions")
     application
 }
-
-repositories { mavenCentral() }
 
 dependencies {
     implementation("org.springframework:spring-context:7.1.0")
